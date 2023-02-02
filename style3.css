@@ -1,0 +1,112 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin:0px;
+    font-family: arial, sans-serif;
+  }
+
+  header nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  header nav  {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  header nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+
+
+body {
+  margin:0px;
+  padding:0px;
+}
+
+  main {
+    font-family: Arial, sans-serif;
+    margin: 15px;
+    padding-left: 15px;
+  }
+  
+  footer{
+    margin:10px;
+    padding:2px;
+  }
+
+  nav>a:hover
+  {
+    background-color: green;
+    color: white;
+    padding: 5px;
+  }
+
+  body{
+    text-align: left;
+  }
+  
+  main>h1{
+    text-shadow: 0px 0px 0px black;
+  }
+ 
+  body
+  {
+    box-sizing: border-box;
+    
+  }
+
+ div#container
+ {
+   background-color: #f2f2f2 ;
+   border: 1px solid lightgray;
+   overflow: hidden;
+   padding: 20px;
+   border-radius: 4px;
+ }
+
+ input[type="text"],
+ input[type="number"],
+ input[type="password"],
+ select,
+ textarea
+ {
+   height: 45px ;
+   width: 100% ;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 500;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   margin-top: 10px;
+   
+ }
+
+ fieldset
+ {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: white;
+   height: 40px;
+ }
+
+ h1.align
+ {
+  text-align: center;
+ }
+
+ input[type=submit]
+ {
+  background-color: #4daea1;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+ }
+ 
